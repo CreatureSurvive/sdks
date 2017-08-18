@@ -192,7 +192,8 @@ exports:
                         _kAKSConfigMaxUnlockAttempts, _kKeychainSyncSecurityCodeAdvancedOptionsResult,
                         _kKeychainSyncSecurityCodeSetUpLaterResult, _kPSLargeTextUsesExtendedRangeKey,
                         _kTCCCameraID, _kTCCMediaLibraryID,
-                        _kTCCRemindersID, _kTCCWillowID ]
+                        _kTCCRemindersID, _kTCCWillowID, 
+                        _PSKeyNameKey, _PSTableCellHeightKey ]
     objc-classes:     [ _AlphanumericPINTableViewCell,
                         _DevicePINController, _DevicePINPane,
                         _DiagnosticDataController, _FailureBarView,
@@ -264,7 +265,8 @@ exports:
                         _PSTimeRangeCell, _PSUsageBundleCategory,
                         _PSUsageSizeHeader, _PSVoiceOverSettingsDetail,
                         _PasscodeFieldCell, _ProblemReportingController,
-                        __PSDeleteButtonCell ]
+                        __PSDeleteButtonCell, _PSListItemsController,
+                        _PSViewController ]
     objc-ivars:       [ _DevicePINController._cancelButton,
                         _DevicePINController._error1, _DevicePINController._hasBeenDismissed,
                         _DevicePINController._mode, _DevicePINController._oldPassword,
